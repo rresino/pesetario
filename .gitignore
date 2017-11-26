@@ -1,2 +1,24 @@
-*.class
-*.log
+# General
+*~
+
+#Gradle
+.gradle/
+build/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+classes/
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# MacOS
+*.DS_Store
+
+# NodeJS
+./node_modules/
